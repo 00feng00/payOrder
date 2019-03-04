@@ -1,0 +1,66 @@
+.OwnerLeftMenu {
+  border-bottom: none;
+  width: 200px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.headerItem {
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  cursor: default!important;
+}
+
+.item:hover, .item:visited, .item:link, .item:active {
+  color: #333;
+  text-decoration: none;
+}
+
+.item {
+  text-decoration: none;
+  color: #333;
+  width: 200px;
+  height: 65px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+.item.active {
+  width: 210px;
+  height: 53px;
+  color: #fff;
+  background-color: #ff4802;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: -14px;
+    right: -13px;
+    width: 26px;
+    height: 14px;
+    background-image: url("/static/r3.png");
+    background-repeat: no-repeat;
+  }
+}
+
+.item.active_last {
+  width: 210px;
+  height: 53px;
+  color: #fff;
+  background-color: #ff4802;
+  position: relative;
+}
+
+.laset_item {
+  border-bottom: 1px solid #eee;
+}
+
+/*:global(a) {
+  text-decoration: none;
+  color: #333;
+}*/
+

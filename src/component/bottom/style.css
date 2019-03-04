@@ -1,0 +1,33 @@
+.bottom {
+  z-index: 998;
+  border-top: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  bottom: 0px;
+  height: px2rem(98);
+  max-width: 750px;
+  .tab {
+    cursor: pointer;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+    .icon {
+      font-size: px2rem(40);
+      fill: #666666;
+    }
+    .titiel {
+      margin-top: px2rem(8);
+      color: #666666;
+      font-size: px2rem(20);
+    }
+  }
+}

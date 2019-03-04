@@ -1,0 +1,26 @@
+.header {
+  background: #fff;
+  height: px2rem(88);
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  padding-left: px2rem(20);
+  padding-right: px2rem(20);
+  font-size: px2rem(32);
+  color: #666666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 750px;
+  z-index: 999;
+  .gobakc {
+
+  }
+  .name {
+    text-align: center;
+    flex: 1;
+  }
+}

@@ -1,0 +1,10 @@
+.filterItem {
+  text-align: center;
+  width: 100%;
+  font-size: px2rem(26);
+  color: #333333;
+  height: px2rem(60);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

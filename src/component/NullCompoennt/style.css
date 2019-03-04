@@ -1,0 +1,29 @@
+
+.null1 {
+  text-align: center;
+  margin: auto;
+  z-index: 997;
+  .wrapperImage {
+    width: px2rem(305);
+    height: px2rem(254);
+    margin: auto;
+    margin-top: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .title {
+    margin-top: 30px;
+    font-size: px2rem(30);
+    text-align: center;
+    color: #fa541c;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+}

@@ -1,0 +1,10 @@
+.modal {
+  width: 100%;
+  top: 0;
+}
+
+.wrappermodal {
+  height: auto;
+  top: 0;
+  bottom: unset;
+}

@@ -1,0 +1,17 @@
+.idea
+.vscode
+composer.lock
+*.log
+thinkphp
+node_modules
+/node_modules
+node_modules/
+/node_modules/
+/runtime
+runtime/
+/runtime/
+./dist/stats.html
+dist/stats.html
+./dist/index.html
+dist/index.html
+/dist/index.html

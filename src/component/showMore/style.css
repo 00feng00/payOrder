@@ -1,0 +1,25 @@
+.description {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+.moreWrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.more {
+  padding-left: 40px;
+  position: absolute;
+  top: -18px;
+  right: 10px;
+  width: 65px;
+
+  font-size: 12px;
+  cursor: pointer;
+  background: -webkit-linear-gradient(left, transparent, #fff 55%);
+  background: -o-linear-gradient(right, transparent, #fff 55%);
+  background: -moz-linear-gradient(right, transparent, #fff 55%);
+  background: linear-gradient(to right, transparent, #fff 55%);
+}

@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1" />
+    <link rel="icon" href="/favicon.ico">
+    <title>大型售货机</title>
+    <style>
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+
+        @-webkit-keyframes rotation {
+            from {
+                -webkit-transform: rotate(0deg);
+            }
+
+            to {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+    </style>
+    <script>
+        //author:caibaojian
+        //website:http://caibaojian.com
+        //weibo:http:weibo.com/kujian
+        //这段js的最后面有两个参数记得要设置，一个为设计稿实际宽度，一个为制作稿最大宽度，例如设计稿为750，最大宽度为750，则为(750,750)
+        !function (e, t) { function n() { var n = l.getBoundingClientRect().width; t = t || 540, n > t && (n = t); var i = 100 * n / e; r.innerHTML = "html{font-size:" + i + "px;}" } var i, d = document, o = window, l = d.documentElement, r = document.createElement("style"); if (l.firstElementChild) l.firstElementChild.appendChild(r); else { var a = d.createElement("div"); a.appendChild(r), d.write(a.innerHTML), a = null } n(), o.addEventListener("resize", function () { clearTimeout(i), i = setTimeout(n, 300) }, !1), o.addEventListener("pageshow", function (e) { e.persisted && (clearTimeout(i), i = setTimeout(n, 300)) }, !1), "complete" === d.readyState ? d.body.style.fontSize = "16px" : d.addEventListener("DOMContentLoaded", function (e) { d.body.style.fontSize = "16px" }, !1) }(1024, 1024);
+    </script>
+</head>
+
+<body>
+    <div id="root" style="min-height: 100%"></div>
+    <!--font ant -->
+    <link rel="stylesheet" href="/lib/iconfont.css">
+    <!-- <script src="//at.alicdn.com/t/font_1066961_bvny2h9e0wh.css"></script> -->
+    <script src="/lib/axios.min.js"></script>
+    <script src="/lib/react.production.min.js"></script>
+    <script src="/lib/react-dom.production.min.js"></script>
+    <!-- <script src="https://qn.diyeetech.com/static/js/react-router.min.js"></script> -->
+    <!-- <script src="https://qn.diyeetech.com/static/js/react-router-dom.min.js"></script> -->
+
+    <!-- <script src="https://qn.diyeetech.com/static/js/redux.min.js"></script> -->
+    <!-- <script src="https://qn.diyeetech.com/static/js/redux-saga.min.js"></script> -->
+
+
+    <!--swiper-->
+    <link href="/lib/swiper.min.css" rel="stylesheet" />
+    <script src="/lib/swiper.min.js"></script>
+    <!-- antd mobile -->
+    <script src="/lib/antd-mobile.min.js"></script>
+    <link href="/lib/antd-mobile.min.css" rel="stylesheet">
+    <!--monent-->
+    <script src="/lib/moment.min.js"></script>
+    <script src="/lib/zh-cn.js"></script>
+</body>
+
+</html>

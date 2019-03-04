@@ -1,0 +1,50 @@
+.Avatar {
+  display: flex;
+
+}
+
+.avatar1 {
+  padding: 20px;
+  width: 900px;
+  margin: auto;
+}
+
+.fileInput {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  left: 26px;
+  opacity: 0;
+}
+
+.preview {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.addWrappperWrapper {
+  margin: 30px;
+}
+
+.addWrappper {
+  position: relative;
+  border: 1px darkgrey dashed;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.btns {
+  margin: 30px;
+  .btn {
+    width: 110px;
+    &:last-child {
+      margin-left: 20px;
+    }
+  }
+}
+
+.big_title {
+  padding-left: 60px;
+}

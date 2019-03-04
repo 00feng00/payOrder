@@ -1,0 +1,53 @@
+:global {
+  @-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+  } 
+
+  .loadcontent {
+    //position: absolute;
+    //width: 100%;
+    //height: 100%;
+    //display: flex;
+    //justify-content: center;
+    //align-items: center;
+    //align-self: center;
+    img{
+      width: px2rem(200);
+      height: px2rem(200);
+      /* 添加旋转效果 */
+      animation: rotation 2s linear infinite;
+    }
+   
+  }
+  
+  #load {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 999;
+  }
+  
+  #mark {
+    background: rgba(0, 0, 0, 0.67);
+    opacity: .5;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    //width: 100%;
+    //height: 100%;
+    top: 0;
+    z-index: 998;
+  }
+
+}

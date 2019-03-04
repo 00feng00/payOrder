@@ -1,0 +1,33 @@
+.tdLabel {
+  display: flex;
+  .labelTitle {
+    padding-right: 10px;
+  }
+  .icon {
+    font-size: 13px;
+    fill: #a9a9a9;
+    &:hover {
+      fill: #595959 !important;
+      cursor: pointer;
+    }
+  }
+  .tdIcons {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.hcenter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.vcenter {
+  align-items: center;
+  align-self: center;
+}
+
+.padding20 {
+  padding: 20px;
+}

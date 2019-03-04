@@ -1,0 +1,39 @@
+.tabsHeader {
+  background: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: px2rem(90);
+  .tabTitle {
+    flex: 1;
+    font-weight: 600;
+    margin-right: 10px;
+    font-size: px2rem(25);
+    color: #222;
+    text-align: center;
+    opacity: .5;
+    position: relative;
+    &.active {
+      position: relative;
+      opacity: 1;
+      color: #ff5b05;
+      &:after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 2px;
+        bottom: -8px;
+        left: 0px;
+        background: #ff5b05;
+      }
+    }
+  }
+}
+
+.tabContent {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}

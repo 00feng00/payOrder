@@ -1,0 +1,16 @@
+:global {
+    .swiper-container {
+        width: 100%;
+    }  
+    .swiper-slide{
+        width: 100%!important;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .swiper-pagination-bullet{
+        width: px2rem(20)!important;
+        height:px2rem(20)!important;
+    }
+}

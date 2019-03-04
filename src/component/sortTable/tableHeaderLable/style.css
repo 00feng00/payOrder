@@ -1,0 +1,16 @@
+.tdLabel {
+  display: flex;
+  height: 35px;
+  align-self: center;
+  align-items: center;
+}
+
+.labelTitle {
+  width: 80px;
+  overflow: hidden;
+}
+
+.tdIcons {
+  display: flex;
+  flex-direction: column;
+}

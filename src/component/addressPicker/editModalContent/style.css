@@ -1,0 +1,121 @@
+.header {
+  padding-left: px2rem(22);
+  padding-right: px2rem(22);
+  display: flex;
+  height: px2rem(100);
+  border-bottom: 1px solid #eee;
+  align-items: center;
+  .title {
+    flex: 1;
+    text-align: center;
+  }
+  .addBtn {
+    background: #ff4c41;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: px2rem(30);
+  }
+}
+
+.modal_content {
+  width: 100%;
+  height: 100%;
+  .header {
+    display: flex;
+    height: px2rem(88);
+    background-color: #ffffff;
+    .backip {
+      font-size: px2rem(32);
+      color: #666666;
+    }
+    .title {
+
+    }
+  }
+  .wrapperbtn111 {
+    position: fixed;
+    width: 100%;
+    max-width: 750px;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    .left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      height: px2rem(98);
+      background-image: linear-gradient(90deg,
+              #f61339 0%,
+              #ff6521 100%);
+    }
+    .right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      color: #fff;
+      height: px2rem(98);
+      background-image: linear-gradient(90deg,
+              #3a3a3a 0%,
+              #5b5b5b 100%);
+    }
+  }
+
+  .address_conetne_content {
+    margin-top: 20px;
+    .defaultSwipterWrapper {
+      padding-left: px2rem(22);
+      padding-right: px2rem(22);
+      height: px2rem(80);
+      display: flex;
+      align-items: center;
+      display: flex;
+      align-items: center;
+      padding-bottom: px2rem(22);
+    }
+    .inputItem {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #eee;
+      .labele1 {
+        font-size: px2rem(30);
+        color: #bbbbbb;
+        margin-left: px2rem(32);
+      }
+    }
+    .inputItemAddress {
+      border-bottom: none;
+    }
+  }
+}
+
+.surname_gitvename {
+  display: flex;
+  .surname {
+    .labele1 {
+      font-size: 0.15rem;
+      color: #bbbbbb;
+      margin-left: 0.16rem;
+    }
+  }
+  .givename {
+    .labele1 {
+      font-size: 0.15rem;
+      color: #bbbbbb;
+      margin-left: 0.16rem;
+    }
+  }
+}
+
+.addressPickerShow {
+  height: px2rem(90);
+  border-bottom: 1px solid #eee;
+  margin-left: px2rem(20);
+  display: flex;
+  align-items: center;
+  .labke {
+    margin-right: px2rem(90);
+  }
+}

@@ -1,0 +1,78 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  height: px2rem(87);
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  max-width: 750px;
+  top: 0;
+  .content {
+    width: 100%;
+    display: flex;
+    height: px2rem(44);
+    /*  background: #eeee;*/
+    padding-left: px2rem(28);
+    padding-right: px2rem(28);
+
+    .icon-nav {
+      font-size: px2rem(47);
+      color: #999;
+    }
+    .wrapperlogowrapper {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      .wrapperlogo {
+        margin-left: px2rem(23);
+        width: px2rem(254);
+        height: px2rem(38);
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .input_wrapper {
+      width: px2rem(284);
+      height: px2rem(46);
+      display: flex;
+      align-items: center;
+      border: 1px solid #eee;
+      background-color: #ffffff;
+      border-radius: 22px;
+      font-size: px2rem(22);
+      color: #d3d3d3;
+      padding-left: 10px;
+      padding-right: 10px;
+      span {
+        flex: 1;
+      }
+    }
+  }
+}
+
+.drwaingCenter {
+  padding-left: px2rem(22);
+  padding-right: px2rem(22);
+  .row1 {
+    h1 {
+      font-weight: bold;
+      font-size: px2rem(42);
+      display: flex;
+      span {
+        font-weight: bold;
+        flex: 1;
+      }
+    }
+
+    .rowItem {
+      height: px2rem(84);
+      display: flex;
+      align-content: center;
+      align-items: center;
+      font-size: px2rem(26);
+    }
+  }
+}

@@ -1,0 +1,257 @@
+.conetne {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  padding-left: px2rem(22);
+  padding-right: px2rem(22);
+  display: flex;
+  height: px2rem(100);
+  border-bottom: 1px solid #eee;
+  align-items: center;
+  .title {
+    flex: 1;
+    text-align: center;
+  }
+  .addBtn {
+    background: #ff4c41;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: px2rem(30);
+  }
+}
+
+.addressContent {
+  //background: #eee;
+  padding-bottom: 10px;
+}
+
+.addressitem {
+  font-size: px2rem(24);
+  background: #fff;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-left: px2rem(22);
+  padding-right: px2rem(22);
+  .top {
+    padding-top: px2rem(20);
+    display: flex;
+    align-items: center;
+    .left {
+      width: px2rem(50);
+      display: flex;
+      align-items: center;
+      svg {
+        color: #666666;
+      }
+    }
+    .top1 {
+      height: px2rem(60);
+      align-items: center;
+      display: flex;
+      .namne {
+        color: #666666;
+        font-size: px2rem(24);
+      }
+      .pohome {
+        color: #666666;
+        margin-left: px2rem(50);
+        font-size: px2rem(24);
+      }
+    }
+
+    .top2 {
+      color: #666666;
+      font-size: px2rem(24);
+      height: px2rem(80);
+    }
+  }
+
+  .bottom {
+    font-size: px2rem(24);
+    height: px2rem(62);
+    display: flex;
+    align-items: center;
+    .left {
+      font-size: px2rem(24);
+      flex: 1;
+      small {
+        padding: 5px;
+        background: #ff4800;
+        margin-left: 2px;
+        color: #fff;
+        border-radius: 10px;
+      }
+    }
+    .right {
+      font-size: px2rem(24);
+      display: flex;
+      .edith {
+        color: #666666;
+        font-size: px2rem(24);
+        margin-right: 5px;
+      }
+      .delete {
+        color: #666666;
+        font-size: px2rem(24);
+      }
+    }
+  }
+}
+
+.wrapperbnts {
+  display: flex;
+  justify-content: flex-end;
+  .finshbtn {
+    background: #ff4c41;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: px2rem(30);
+  }
+}
+
+.addressPickerShow {
+  height: px2rem(90);
+  border-bottom: 1px solid #eee;
+  margin-left: px2rem(20);
+  display: flex;
+  align-items: center;
+  .labke {
+    margin-right: px2rem(90);
+  }
+}
+
+.modal_content {
+  width: 100%;
+  height: 100%;
+  .header {
+    display: flex;
+    height: px2rem(88);
+    background-color: #ffffff;
+    .backip {
+      font-size: px2rem(32);
+      color: #666666;
+    }
+    .title {
+
+    }
+  }
+  .wrapperbtn111 {
+    position: fixed;
+    width: 100%;
+    max-width: 750px;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    .left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      height: px2rem(98);
+      background-image: linear-gradient(90deg,
+              #f61339 0%,
+              #ff6521 100%);
+    }
+    .right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      color: #fff;
+      height: px2rem(98);
+      background-image: linear-gradient(90deg,
+              #3a3a3a 0%,
+              #5b5b5b 100%);
+    }
+  }
+
+  .address_conetne_content {
+    margin-top: 20px;
+    .defaultSwipterWrapper {
+      padding-left: px2rem(22);
+      padding-right: px2rem(22);
+      height: px2rem(80);
+      display: flex;
+      align-items: center;
+      display: flex;
+      align-items: center;
+      padding-bottom: px2rem(22);
+    }
+    .inputItem {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #eee;
+      .labele1 {
+        font-size: px2rem(30);
+        color: #bbbbbb;
+        margin-left: px2rem(32);
+      }
+    }
+    .inputItemAddress {
+      border-bottom: none;
+    }
+  }
+}
+
+.bottomAdd {
+  bottom: 0;
+  height: px2rem(100);
+  background-image: linear-gradient(90deg,
+          #f61339 0%,
+          #ff6521 100%);
+  position: fixed;
+  width: 100%;
+  max-width: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.null1 {
+  margin: 100px auto;
+  text-align: center;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  p {
+    margin-top: 20px;
+    width: 80%;
+    display: inline-block;
+    strong {
+      color: #ff4800;
+    }
+  }
+}
+
+.surname_gitvename {
+  display: flex;
+  .surname {
+    .labele1 {
+      font-size: 0.15rem;
+      color: #bbbbbb;
+      margin-left: 0.16rem;
+    }
+  }
+  .givename {
+    .labele1 {
+      font-size: 0.15rem;
+      color: #bbbbbb;
+      margin-left: 0.16rem;
+    }
+  }
+}
+
+:global {
+  input {
+    font-size: px2rem(30) !important;
+  }
+}
+
+
