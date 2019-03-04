@@ -1,7 +1,7 @@
 ### lazyTai && afeng open source
 
 ### 效果图
-<img src="https://github.com/00feng00/payOrder/placeOrderBg.jpg">
+<img src="https://github.com/00feng00/payOrder/blob/master/placeOrderBg.jpg">
 ### 目录说明
 
 ~~~
